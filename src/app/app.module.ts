@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { FooComponent } from './components/foo/foo.component';
 import { Foo2Component } from './components/foo2/foo2.component';
 import { Foo3Component } from './components/foo3/foo3.component';
+import { Foo4Component } from './components/foo4/foo4.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { Foo3Component } from './components/foo3/foo3.component';
     FooComponent,
     Foo2Component,
     Foo3Component,
+    Foo4Component,
 
   ],
   imports: [
