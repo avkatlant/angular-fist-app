@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  expression = false;
+  age = 18;
+
+  onSayHi(text: string) {
+    console.log(text);
+  }
 }

@@ -7,6 +7,7 @@ import { BindingComponent } from './components/binding/binding.component';
 import { FormsModule } from '@angular/forms';
 import { FooComponent } from './components/foo/foo.component';
 import { Foo2Component } from './components/foo2/foo2.component';
+import { Foo3Component } from './components/foo3/foo3.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { Foo2Component } from './components/foo2/foo2.component';
     BindingComponent,
     FooComponent,
     Foo2Component,
+    Foo3Component,
 
   ],
   imports: [

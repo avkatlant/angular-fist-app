@@ -1,1 +1,8 @@
-<app-foo2></app-foo2>
+<app-foo3 title="new title"></app-foo3>
+
+<hr>
+
+<app-foo3 (sayHi)="onSayHi($event)" [(counter)]="age" [fooBar]="'432424'"
+          [title]="expression ? 'one' : 'two'"></app-foo3>
+
+<button (click)="expression = !expression">{{!expression ? 'one' : 'two'}}</button>
