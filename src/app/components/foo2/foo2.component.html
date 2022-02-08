@@ -1,0 +1,37 @@
+<h2>Style</h2>
+
+<p [ngStyle]="{'font-size': '10px'}">Style</p>
+<p [style]="'background-color: skyblue; width: 150px'">Style</p>
+<p [style.background-color]="'yellow'" [style.width]="'100px'">Style</p>
+<p [style.background-color]="'pink'" [style.width.px]="100">Style</p>
+<p [style]="{'background-color': 'lightgrey', width: '150px'}">Style</p>
+
+<hr>
+
+<h2>Class</h2>
+
+<p [ngClass]="'active'">Class</p>
+<p [class]="'red green blue'">Class</p>
+<p [class.red]="true">Class</p>
+<p [class.red-blue]="true">Class</p>
+<p [class.blue]="true" [class.green]="true" [class.red]="true">Class</p>
+<p [class]="['red', 'green', 'blue']">Class</p>
+<p [class]="{red: true, green: false, 'dark-blue': true}"></p>
+
+<hr>
+
+<h2>Attributes</h2>
+
+<p title="Title">Attributes</p>
+<p [title]="'Title' + 12">Attributes</p>
+<p [draggable]="true" [title]="'Title' + 12">Attributes</p>
+
+<p [attr.data-foo]="'ssa'">Attributes</p>
+<p [attr.draggable]="true">Attributes</p>
+<p [attr.class]="'ssa'">Attributes</p>
+<p [attr.id]="'ssa'">Attributes</p>
+<p [attr.style]="'color:red'">Attributes</p>
+
+<td [colSpan]="1">1</td>
+<td colspan="1">1</td>
+<td [attr.colspan]="1">1</td>
