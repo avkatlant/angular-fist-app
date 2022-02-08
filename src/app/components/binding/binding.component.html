@@ -1,0 +1,34 @@
+<p (click)="updatePhone()">Phone is: {{phone}}</p>
+
+<p [class]="user.surname" [title]="user.name">Full name is: {{user.name + ' ' + user.surname}}</p>
+
+<p>Full name is: {{fullName}}</p>
+
+<p>{{boldText}}</p>
+<p [innerHTML]="boldText"></p>
+
+<input (input)="onInput($event, 123, 'qwerty')" [value]="phone" type="text"/>
+
+<br>
+
+<input [(ngModel)]="user.name" type="text">
+<br>
+<input (ngModelChange)="user.name=$event" [ngModel]="user.name" type="text">
+<br>
+<input [(ngModel)]="user.surname" type="text">
+
+<hr>
+
+<form (ngSubmit)="onSubmit()" action="#">
+  <input [(ngModel)]="login" name="login" type="text">
+  <input [(ngModel)]="password" name="password" type="password">
+  <button type="submit">Submit</button>
+</form>
+
+<!--
+{{ }} - интерполяция
+[ ] - байдинг свойств
+( ) - байдинг события
+[( )] - двухсторонняя связь
+
+-->

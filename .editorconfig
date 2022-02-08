@@ -10,17 +10,11 @@ trim_trailing_whitespace = true
 
 [*.ts]
 quote_type = single
-
-# для пробелов
-ij_typescript_spaces_within_imports = true
-
-# ставить точку с запятой в конце
-ij_typescript_force_semicolon_style = true
-ij_typescript_use_semicolon_after_statement = true
-
-# не использовать двойные кавычки
-ij_typescript_use_double_quotes = false
-ij_typescript_force_quote_style = true
+ij_typescript_spaces_within_imports = true # для пробелов
+ij_typescript_force_semicolon_style = true # ставить точку с запятой в конце
+ij_typescript_use_semicolon_after_statement = true # ставить точку с запятой в конце
+ij_typescript_use_double_quotes = false # не использовать двойные кавычки
+ij_typescript_force_quote_style = true # не использовать двойные кавычки
 
 [*.md]
 max_line_length = off
