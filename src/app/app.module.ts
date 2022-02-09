@@ -10,6 +10,8 @@ import { Foo2Component } from './components/foo2/foo2.component';
 import { Foo3Component } from './components/foo3/foo3.component';
 import { Foo4Component } from './components/foo4/foo4.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { ParentComponent } from './components/parent/parent.component';
+import { ChildComponent } from './components/child/child.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { MenuComponent } from './components/menu/menu.component';
     Foo3Component,
     Foo4Component,
     MenuComponent,
+    ParentComponent,
+    ChildComponent,
 
   ],
   imports: [

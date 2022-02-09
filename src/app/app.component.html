@@ -1,31 +1,7 @@
-<div>
-  <button (click)="menu.show()">
-    Open Menu
-  </button>
+<button (click)="show = !show">Toggle</button>
 
-  <app-menu #menu>
-    <p>From App Component</p>
-  </app-menu>
-</div>
+<button (click)="title = title + '1'">Modify</button>
 
-<div>
-  <button (click)="menu2.show()">
-    Open Menu
-  </button>
-
-  <app-menu #menu2>
-    <p>From App Component 2</p>
-  </app-menu>
-</div>
-
-<div>
-  <button (click)="menu3.show()">
-    Open Menu
-  </button>
-
-  <app-menu #menu3>
-    <p>From App Component 3</p>
-  </app-menu>
-</div>
+<app-parent *ngIf="show" [title]="title"></app-parent>
 
 
