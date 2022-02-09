@@ -30,39 +30,39 @@ export class ChildComponent implements OnChanges,
   title = '';
 
   constructor() {
-    console.log('ChildComponent.constructor');
+    // console.log('ChildComponent.constructor');
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    console.log('ChildComponent.ngOnChanges', changes);
+    // console.log('ChildComponent.ngOnChanges', changes);
   }
 
   ngOnInit(): void {
-    console.log('ChildComponent.ngOnInit');
+    // console.log('ChildComponent.ngOnInit');
   }
 
   ngDoCheck() {
-    console.log('ChildComponent.ngDoCheck');
+    // console.log('ChildComponent.ngDoCheck');
   }
 
   ngAfterContentInit() {
-    console.log('ChildComponent.ngAfterContentInit');
+    // console.log('ChildComponent.ngAfterContentInit');
   }
 
   ngAfterContentChecked() {
-    console.log('ChildComponent.ngAfterContentChecked');
+    // console.log('ChildComponent.ngAfterContentChecked');
   }
 
   ngAfterViewInit() {
-    console.log('ChildComponent.ngAfterViewInit');
+    // console.log('ChildComponent.ngAfterViewInit');
   }
 
   ngAfterViewChecked() {
-    console.log('ChildComponent.ngAfterViewChecked');
+    // console.log('ChildComponent.ngAfterViewChecked');
   }
 
   ngOnDestroy() {
-    console.log('ChildComponent.ngOnDestroy');
+    // console.log('ChildComponent.ngOnDestroy');
   }
 
 }
