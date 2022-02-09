@@ -9,6 +9,7 @@ import { FooComponent } from './components/foo/foo.component';
 import { Foo2Component } from './components/foo2/foo2.component';
 import { Foo3Component } from './components/foo3/foo3.component';
 import { Foo4Component } from './components/foo4/foo4.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { Foo4Component } from './components/foo4/foo4.component';
     Foo2Component,
     Foo3Component,
     Foo4Component,
+    MenuComponent,
 
   ],
   imports: [
